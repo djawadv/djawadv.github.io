@@ -1,0 +1,75 @@
+.centring-div {
+  margin: auto;
+  width: fit-content;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'space mono';
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.attempts-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid #4f46e533;
+    border-radius: 2px;
+}
+input:focus{
+    outline: none;
+}
+.enter-btn{
+    background: white;
+    border: 2px solid #4f46e533;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+.enter-btn:hover{
+    background-color: #4f46e533;
+    color: black;
+}
+.enter-btn:active{
+    transform: scale(0.88);
+    transition: transform 0.5;
+
+}
+.status-contianer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#restart-btn{
+    background: white;
+    border: 2px solid #4f46e533;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+#restart-btn:hover{
+    background-color: #4f46e533;
+    color: black;
+}
+#restart-btn:active{
+    transform: scale(0.88);
+    transition: transform 0.5;
+}

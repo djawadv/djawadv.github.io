@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number guessing game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="centring-div">
+        <div class="title-container"> 
+            <h1>GUESS</h1>
+            <p>guess a number between 1 and 100</p>
+        </div>
+        <form class="input-container">
+            <input type="text" id="guess-input" autofocus autocomplete="off">
+            <button type="submit" class="enter-btn" id="submit-btn">Enter</button>
+        </form>
+        <div class="status-contianer">
+            <p id="status-text" "></p>
+        </div>
+        <div class="attempts-container">
+            <p id="attemptsP">you have <span id="attempts-text">10</span> attempts left</p>
+            <button id="restart-btn" style="display:none">Try Again</button>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
